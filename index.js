@@ -24,6 +24,6 @@ app.get('/:number', [
 });
 
 
-app.listen(3000, () => {
+app.listen(80, () => {
   console.log("Application running on port 3000");
 });
