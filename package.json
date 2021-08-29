@@ -1,0 +1,17 @@
+{
+  "name": "non-negative-integer",
+  "version": "1.0.0",
+  "description": "determins the outcome of a non-negative-integer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zee",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "is-not-negative": "^1.0.3",
+    "validate.io-nonnegative-integer": "^1.0.0"
+  }
+}
