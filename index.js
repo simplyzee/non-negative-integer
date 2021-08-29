@@ -6,6 +6,10 @@ const app = express()
 
 
 // Set up route
+app.get('/', (req, res) => {
+  return res.sendStatus(200);
+});
+
 app.get('/:number', [
   param('number').isInt().toInt()
 ], (req, res, next) => {
